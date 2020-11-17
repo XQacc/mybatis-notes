@@ -28,10 +28,13 @@
 		</javaTypeResolver>
 
 		<!-- Model, MAPPER, DAO -->
+		<!-- Model -->
 		<javaModelGenerator targetPackage="xxx"
 			targetProject="src/main/java" /><!-- 改 -->
+		<!-- XML -->
 		<sqlMapGenerator targetPackage="xxx"
 			targetProject="src/main/resources" /><!-- 改 -->
+		<!-- mapper.java -->
 		<javaClientGenerator targetPackage="xxx"
 			targetProject="src/main/java" type="XMLMAPPER" /><!-- 改 -->
 
